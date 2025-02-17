@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.biron {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    background-color: #f9f3f9;
+    justify-content: space-between;
+}
+
+.biron .biron1 {
+    text-align: center;
+    width: 187px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.baron {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+    background-color: #f9f3f9;
+    justify-content: space-between;
+}
+
+.baron div {
+    text-align: center;
+    width: 187px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: -13px;
+    padding: 10px;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.vio{
+    background-color: #3498db;
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.alain{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.alain .alain2{
+    flex-basis: 30%;
+}
+.alain div:nth-child(1){
+    background-color:#2ecc71;
+    color: white;
+    padding-left: 10px;
+    flex: 1;
+    margin-right: 5px;
+    /* padding: 100px 0; */
+    height: 200px;
+    padding-top: 10px;
+}
+.alain div:nth-child(2){
+    background-color:#e74c3c;
+    color: white;
+    padding-left: 10px;
+    flex: 3;
+    /* padding: 100px 0; */
+    height: 200px;
+    padding-top: 10px;
+}
+
+.super{
+    background-color:#9b59b6;
+    color: white;
+    padding-left: 10px;
+    margin-top: 5px;
+}

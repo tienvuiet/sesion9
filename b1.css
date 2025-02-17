@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tong .tong1{
+    background-color: rgb(95, 88, 162);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 39px;
+}
+.tong {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
